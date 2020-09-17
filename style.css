@@ -9,10 +9,9 @@ body {
    url("images/bg-pattern-bottom-desktop.svg");
    background-position: left top, right bottom;
    background-repeat: no-repeat;
-   /* border: 1px solid black; */
    margin: 200px;
    padding: 130px;
-   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.082);
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.336);
    border-radius: 15px;
 }
 
@@ -43,7 +42,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: 1px solid black; */
     color:  hsl(302, 62%, 19%);
     font-weight: bolder;
     font-size: 15px;
@@ -78,8 +76,6 @@ body {
     flex-direction: row;
     margin: 50px 0 50px 0;
     justify-content: space-between;
-
-   
 }
 
 .card {
@@ -240,5 +236,4 @@ body {
     .card3 {
         margin-top: 20px;
     }
-
 }
