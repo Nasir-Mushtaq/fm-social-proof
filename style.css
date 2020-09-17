@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+}
+.wrapper {
+   background-image: 
+   url("images/bg-pattern-top-desktop.svg"),
+   url("images/bg-pattern-bottom-desktop.svg");
+   background-position: left top, right bottom;
+   background-repeat: no-repeat;
+   /* border: 1px solid black; */
+   margin: 200px;
+   padding: 130px;
+   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.082);
+   border-radius: 15px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+.intro h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0;
+}
+.intro p {
+    color: hsl(301, 42%, 22%);
+    font-weight: 400;
+}
+
+.stars {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+    color:  hsl(302, 62%, 19%);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.stars span {
+    font-size:25px;
+    color:rgb(255, 166, 0);
+    margin-left: 20px;
+}
+.rating {
+    width: 80%;
+    background-color: hsl(300, 24%, 96%);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.r2 {
+    margin-left: 50px;
+}
+
+.r3 {
+    margin-left: 100px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0 50px 0;
+    justify-content: space-between;
+
+   
+}
+
+.card {
+    width: 28%;
+    background-color: hsl(302, 70%, 16%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    padding: 25px;
+    position: relative;
+    height: 200px
+    
+    
+}
+
+
+.card img {
+    border-radius: 50%;
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+
+}
+
+.card h2 {
+    font-size: 15px;
+    display: inline;
+    position: absolute;
+    top: 25px;
+    left: 120px;
+
+}
+
+.card h3 {
+    color: hsl(333, 80%, 67%);
+    font-size: 14px;
+    position: absolute;
+    top: 45px;
+    left: 120px;
+    margin-bottom: 20px;
+}
+
+.card blockquote {
+    font-size: 14px;
+    margin-top: 80px;
+    line-height: 20px;
+
+}
+
+.card2 {
+    margin-top: 30px;
+}
+
+.card3 {
+    margin-top: 60px;
+}
